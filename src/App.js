@@ -1,10 +1,12 @@
 import React from "react";
-import ValidChecker from "./utils/ValidChecker";
+import BracketInput from "./components/BracketInput";
 
 const App = () => {
-  const brackets = "[({}){}]";
-  const isValid = ValidChecker(brackets);
-  return <div>The given bracket pairs are {isValid}</div>;
+  return (
+    <div>
+      <BracketInput />
+    </div>
+  );
 };
 
 export default App;

@@ -1,6 +1,5 @@
 function ValidChecker(str) {
   const arr = [];
-  console.log(arr);
 
   const mappedPairs = {
     "(": ")",
